@@ -1,13 +1,13 @@
 # Coloroid
 
-An iOS puzzle game that teaches kids the principles of programming I started working on in 2013. My first experience with iOS development and Objective C.
+An iOS puzzle game that teaches kids the principles of programming I started working on in 2014. My first experience with iOS development and Objective C.
 Far from a final product, but includes the main functionality.
 
 ![Preview](https://raw.githubusercontent.com/yenbekbay/coloroid/master/preview.png)
 
 # MIT License (MIT)
 
-Copyright (c) 2015 Ayan Yenbekbay
+Copyright (c) 2014 Ayan Yenbekbay
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

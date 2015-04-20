@@ -1,6 +1,6 @@
 # Coloroid
 
-An iOS puzzle game that teaches kids the principles of programming I started working on in 2014. My first experience with iOS development and Objective C.
+An iOS puzzle game that teaches kids the principles of programming I started working on in 2014. My first experience with iOS development and Objective C. Uses SpriteKit, which was introduced in iOS 7.
 Far from a final product, but includes the main functionality.
 
 ![Preview](https://raw.githubusercontent.com/yenbekbay/coloroid/master/preview.png)

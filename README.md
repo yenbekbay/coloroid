@@ -3,7 +3,7 @@
 An iOS puzzle game that teaches kids the principles of coding. My first experience with iOS development and Objective C.
 Far from a final product, but includes the main functionality.
 
-[!Preview](https://raw.githubusercontent.com/yenbekbay/coloroid/master/preview.png)
+![Preview](https://raw.githubusercontent.com/yenbekbay/coloroid/master/preview.png)
 
 # MIT License (MIT)
 

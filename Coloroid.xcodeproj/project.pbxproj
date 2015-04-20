@@ -1,0 +1,680 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		200A97E8190249D5002A9353 /* level-1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 200A97E5190249D5002A9353 /* level-1.txt */; };
+		200A97E9190249D5002A9353 /* TileMapLayerLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 200A97E7190249D5002A9353 /* TileMapLayerLoader.m */; };
+		200A97EC19024D43002A9353 /* Bot.m in Sources */ = {isa = PBXBuildFile; fileRef = 200A97EB19024D43002A9353 /* Bot.m */; };
+		202000701909ACF2001BBCCD /* Function.m in Sources */ = {isa = PBXBuildFile; fileRef = 2020006F1909ACF2001BBCCD /* Function.m */; };
+		20200076190A8C03001BBCCD /* Command.m in Sources */ = {isa = PBXBuildFile; fileRef = 20200075190A8C03001BBCCD /* Command.m */; };
+		2039E6F3190B2CA500F53380 /* right_claw_anim.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 2039E6F2190B2CA500F53380 /* right_claw_anim.atlas */; };
+		2039E6F5190B35A200F53380 /* left_claw_anim.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 2039E6F4190B35A200F53380 /* left_claw_anim.atlas */; };
+		2039E6F8190C4B5800F53380 /* Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 2039E6F7190C4B5800F53380 /* Color.m */; };
+		205878DD190D9EE500BA552A /* head_activate_anim.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 205878DC190D9EE500BA552A /* head_activate_anim.atlas */; };
+		20696AAD1902E43F00CD4DA6 /* Tile.m in Sources */ = {isa = PBXBuildFile; fileRef = 20696AAC1902E43F00CD4DA6 /* Tile.m */; };
+		208C89231901E5510041FF04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 208C89221901E5510041FF04 /* Foundation.framework */; };
+		208C89251901E5510041FF04 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 208C89241901E5510041FF04 /* CoreGraphics.framework */; };
+		208C89271901E5520041FF04 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 208C89261901E5520041FF04 /* UIKit.framework */; };
+		208C89291901E5520041FF04 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 208C89281901E5520041FF04 /* SpriteKit.framework */; };
+		208C892F1901E5520041FF04 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 208C892D1901E5520041FF04 /* InfoPlist.strings */; };
+		208C89311901E5520041FF04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 208C89301901E5520041FF04 /* main.m */; };
+		208C89351901E5520041FF04 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 208C89341901E5520041FF04 /* AppDelegate.m */; };
+		208C89381901E5520041FF04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 208C89361901E5520041FF04 /* Main.storyboard */; };
+		208C893B1901E5520041FF04 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 208C893A1901E5520041FF04 /* ViewController.m */; };
+		208C893E1901E5520041FF04 /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 208C893D1901E5520041FF04 /* MyScene.m */; };
+		208C89421901E5520041FF04 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 208C89411901E5520041FF04 /* Images.xcassets */; };
+		208C89491901E5520041FF04 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 208C89481901E5520041FF04 /* XCTest.framework */; };
+		208C894A1901E5520041FF04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 208C89221901E5510041FF04 /* Foundation.framework */; };
+		208C894B1901E5520041FF04 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 208C89261901E5520041FF04 /* UIKit.framework */; };
+		208C89531901E5520041FF04 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 208C89511901E5520041FF04 /* InfoPlist.strings */; };
+		208C89551901E5520041FF04 /* ColoroidTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 208C89541901E5520041FF04 /* ColoroidTests.m */; };
+		208C8969190226050041FF04 /* SKAction+SKTExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 208C8960190226050041FF04 /* SKAction+SKTExtras.m */; };
+		208C896A190226050041FF04 /* SKEmitterNode+SKTExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 208C8962190226050041FF04 /* SKEmitterNode+SKTExtras.m */; };
+		208C896B190226050041FF04 /* SKNode+SKTExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 208C8964190226050041FF04 /* SKNode+SKTExtras.m */; };
+		208C896C190226050041FF04 /* SKTAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = 208C8966190226050041FF04 /* SKTAudio.m */; };
+		208C896D190226050041FF04 /* SKTUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 208C8968190226050041FF04 /* SKTUtils.mm */; };
+		208C8970190228AA0041FF04 /* TileMapLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 208C896F190228AA0041FF04 /* TileMapLayer.m */; };
+		208C89D1190238EC0041FF04 /* SKTEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 208C899C190238EC0041FF04 /* SKTEffects.m */; };
+		208C89D2190238EC0041FF04 /* SKTTimingFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 208C899E190238EC0041FF04 /* SKTTimingFunctions.m */; };
+		209022C71905535B006EAD60 /* blueprint@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 209022C61905535B006EAD60 /* blueprint@2x.png */; };
+		20A4D8981908B1D800CA278B /* splatter.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 20A4D8971908B1D800CA278B /* splatter.atlas */; };
+		20B2746A1908A41700552A47 /* body_anim.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 20B274631908A41700552A47 /* body_anim.atlas */; };
+		20B2746B1908A41700552A47 /* bucket_anim.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 20B274641908A41700552A47 /* bucket_anim.atlas */; };
+		20B2746C1908A41700552A47 /* elements_front.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 20B274651908A41700552A47 /* elements_front.atlas */; };
+		20B2746D1908A41700552A47 /* head_anim.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 20B274661908A41700552A47 /* head_anim.atlas */; };
+		20B2746E1908A41700552A47 /* interface.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 20B274671908A41700552A47 /* interface.atlas */; };
+		20B2746F1908A41700552A47 /* left_arm_anim.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 20B274681908A41700552A47 /* left_arm_anim.atlas */; };
+		20B274701908A41700552A47 /* right_arm_anim.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 20B274691908A41700552A47 /* right_arm_anim.atlas */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		208C894C1901E5520041FF04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 208C89171901E5510041FF04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 208C891E1901E5510041FF04;
+			remoteInfo = Coloroid;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		200A97E5190249D5002A9353 /* level-1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "level-1.txt"; sourceTree = "<group>"; };
+		200A97E6190249D5002A9353 /* TileMapLayerLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TileMapLayerLoader.h; sourceTree = "<group>"; };
+		200A97E7190249D5002A9353 /* TileMapLayerLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TileMapLayerLoader.m; sourceTree = "<group>"; };
+		200A97EA19024D43002A9353 /* Bot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bot.h; sourceTree = "<group>"; };
+		200A97EB19024D43002A9353 /* Bot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bot.m; sourceTree = "<group>"; };
+		2020006E1909ACF2001BBCCD /* Function.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Function.h; sourceTree = "<group>"; };
+		2020006F1909ACF2001BBCCD /* Function.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Function.m; sourceTree = "<group>"; };
+		20200074190A8C03001BBCCD /* Command.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
+		20200075190A8C03001BBCCD /* Command.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Command.m; sourceTree = "<group>"; };
+		2039E6F2190B2CA500F53380 /* right_claw_anim.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = right_claw_anim.atlas; sourceTree = "<group>"; };
+		2039E6F4190B35A200F53380 /* left_claw_anim.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = left_claw_anim.atlas; sourceTree = "<group>"; };
+		2039E6F6190C4B5800F53380 /* Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Color.h; sourceTree = "<group>"; };
+		2039E6F7190C4B5800F53380 /* Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Color.m; sourceTree = "<group>"; };
+		205878DC190D9EE500BA552A /* head_activate_anim.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = head_activate_anim.atlas; sourceTree = "<group>"; };
+		20696AAB1902E43F00CD4DA6 /* Tile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tile.h; sourceTree = "<group>"; };
+		20696AAC1902E43F00CD4DA6 /* Tile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tile.m; sourceTree = "<group>"; };
+		208C891F1901E5510041FF04 /* Coloroid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coloroid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		208C89221901E5510041FF04 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		208C89241901E5510041FF04 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		208C89261901E5520041FF04 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		208C89281901E5520041FF04 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		208C892C1901E5520041FF04 /* Coloroid-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Coloroid-Info.plist"; sourceTree = "<group>"; };
+		208C892E1901E5520041FF04 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		208C89301901E5520041FF04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		208C89321901E5520041FF04 /* Coloroid-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Coloroid-Prefix.pch"; sourceTree = "<group>"; };
+		208C89331901E5520041FF04 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		208C89341901E5520041FF04 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		208C89371901E5520041FF04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		208C89391901E5520041FF04 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		208C893A1901E5520041FF04 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		208C893C1901E5520041FF04 /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
+		208C893D1901E5520041FF04 /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
+		208C89411901E5520041FF04 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		208C89471901E5520041FF04 /* ColoroidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColoroidTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		208C89481901E5520041FF04 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		208C89501901E5520041FF04 /* ColoroidTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ColoroidTests-Info.plist"; sourceTree = "<group>"; };
+		208C89521901E5520041FF04 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		208C89541901E5520041FF04 /* ColoroidTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColoroidTests.m; sourceTree = "<group>"; };
+		208C895F190226050041FF04 /* SKAction+SKTExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKAction+SKTExtras.h"; sourceTree = "<group>"; };
+		208C8960190226050041FF04 /* SKAction+SKTExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKAction+SKTExtras.m"; sourceTree = "<group>"; };
+		208C8961190226050041FF04 /* SKEmitterNode+SKTExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKEmitterNode+SKTExtras.h"; sourceTree = "<group>"; };
+		208C8962190226050041FF04 /* SKEmitterNode+SKTExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKEmitterNode+SKTExtras.m"; sourceTree = "<group>"; };
+		208C8963190226050041FF04 /* SKNode+SKTExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKNode+SKTExtras.h"; sourceTree = "<group>"; };
+		208C8964190226050041FF04 /* SKNode+SKTExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKNode+SKTExtras.m"; sourceTree = "<group>"; };
+		208C8965190226050041FF04 /* SKTAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTAudio.h; sourceTree = "<group>"; };
+		208C8966190226050041FF04 /* SKTAudio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTAudio.m; sourceTree = "<group>"; };
+		208C8967190226050041FF04 /* SKTUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTUtils.h; sourceTree = "<group>"; };
+		208C8968190226050041FF04 /* SKTUtils.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SKTUtils.mm; sourceTree = "<group>"; };
+		208C896E190228AA0041FF04 /* TileMapLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TileMapLayer.h; sourceTree = "<group>"; };
+		208C896F190228AA0041FF04 /* TileMapLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TileMapLayer.m; sourceTree = "<group>"; };
+		208C899B190238EC0041FF04 /* SKTEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTEffects.h; sourceTree = "<group>"; };
+		208C899C190238EC0041FF04 /* SKTEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTEffects.m; sourceTree = "<group>"; };
+		208C899D190238EC0041FF04 /* SKTTimingFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTTimingFunctions.h; sourceTree = "<group>"; };
+		208C899E190238EC0041FF04 /* SKTTimingFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTTimingFunctions.m; sourceTree = "<group>"; };
+		209022C61905535B006EAD60 /* blueprint@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blueprint@2x.png"; sourceTree = "<group>"; };
+		20A4D8971908B1D800CA278B /* splatter.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = splatter.atlas; sourceTree = "<group>"; };
+		20B274631908A41700552A47 /* body_anim.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = body_anim.atlas; sourceTree = "<group>"; };
+		20B274641908A41700552A47 /* bucket_anim.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = bucket_anim.atlas; sourceTree = "<group>"; };
+		20B274651908A41700552A47 /* elements_front.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = elements_front.atlas; sourceTree = "<group>"; };
+		20B274661908A41700552A47 /* head_anim.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = head_anim.atlas; sourceTree = "<group>"; };
+		20B274671908A41700552A47 /* interface.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = interface.atlas; sourceTree = "<group>"; };
+		20B274681908A41700552A47 /* left_arm_anim.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = left_arm_anim.atlas; sourceTree = "<group>"; };
+		20B274691908A41700552A47 /* right_arm_anim.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = right_arm_anim.atlas; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		208C891C1901E5510041FF04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				208C89251901E5510041FF04 /* CoreGraphics.framework in Frameworks */,
+				208C89271901E5520041FF04 /* UIKit.framework in Frameworks */,
+				208C89291901E5520041FF04 /* SpriteKit.framework in Frameworks */,
+				208C89231901E5510041FF04 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		208C89441901E5520041FF04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				208C89491901E5520041FF04 /* XCTest.framework in Frameworks */,
+				208C894B1901E5520041FF04 /* UIKit.framework in Frameworks */,
+				208C894A1901E5520041FF04 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		200A97E4190249D5002A9353 /* Levels */ = {
+			isa = PBXGroup;
+			children = (
+				200A97E5190249D5002A9353 /* level-1.txt */,
+				200A97E6190249D5002A9353 /* TileMapLayerLoader.h */,
+				200A97E7190249D5002A9353 /* TileMapLayerLoader.m */,
+			);
+			path = Levels;
+			sourceTree = "<group>";
+		};
+		200A97ED19026646002A9353 /* Art */ = {
+			isa = PBXGroup;
+			children = (
+				200A97EE19026646002A9353 /* Images */,
+			);
+			path = Art;
+			sourceTree = "<group>";
+		};
+		200A97EE19026646002A9353 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				205878DC190D9EE500BA552A /* head_activate_anim.atlas */,
+				2039E6F4190B35A200F53380 /* left_claw_anim.atlas */,
+				2039E6F2190B2CA500F53380 /* right_claw_anim.atlas */,
+				20A4D8971908B1D800CA278B /* splatter.atlas */,
+				20B274631908A41700552A47 /* body_anim.atlas */,
+				20B274641908A41700552A47 /* bucket_anim.atlas */,
+				20B274651908A41700552A47 /* elements_front.atlas */,
+				20B274661908A41700552A47 /* head_anim.atlas */,
+				20B274671908A41700552A47 /* interface.atlas */,
+				20B274681908A41700552A47 /* left_arm_anim.atlas */,
+				20B274691908A41700552A47 /* right_arm_anim.atlas */,
+				209022C51905535B006EAD60 /* backgrounds */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		208C89161901E5510041FF04 = {
+			isa = PBXGroup;
+			children = (
+				208C892A1901E5520041FF04 /* Coloroid */,
+				208C894E1901E5520041FF04 /* ColoroidTests */,
+				208C89211901E5510041FF04 /* Frameworks */,
+				208C89201901E5510041FF04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		208C89201901E5510041FF04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				208C891F1901E5510041FF04 /* Coloroid.app */,
+				208C89471901E5520041FF04 /* ColoroidTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		208C89211901E5510041FF04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				208C89221901E5510041FF04 /* Foundation.framework */,
+				208C89241901E5510041FF04 /* CoreGraphics.framework */,
+				208C89261901E5520041FF04 /* UIKit.framework */,
+				208C89281901E5520041FF04 /* SpriteKit.framework */,
+				208C89481901E5520041FF04 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		208C892A1901E5520041FF04 /* Coloroid */ = {
+			isa = PBXGroup;
+			children = (
+				208C8971190238EC0041FF04 /* Resources */,
+				208C895E190226050041FF04 /* SKTUtils */,
+				208C89331901E5520041FF04 /* AppDelegate.h */,
+				208C89341901E5520041FF04 /* AppDelegate.m */,
+				208C89361901E5520041FF04 /* Main.storyboard */,
+				208C89391901E5520041FF04 /* ViewController.h */,
+				208C893A1901E5520041FF04 /* ViewController.m */,
+				208C896E190228AA0041FF04 /* TileMapLayer.h */,
+				208C896F190228AA0041FF04 /* TileMapLayer.m */,
+				20696AAB1902E43F00CD4DA6 /* Tile.h */,
+				20696AAC1902E43F00CD4DA6 /* Tile.m */,
+				208C893C1901E5520041FF04 /* MyScene.h */,
+				208C893D1901E5520041FF04 /* MyScene.m */,
+				2039E6F6190C4B5800F53380 /* Color.h */,
+				2039E6F7190C4B5800F53380 /* Color.m */,
+				200A97EA19024D43002A9353 /* Bot.h */,
+				200A97EB19024D43002A9353 /* Bot.m */,
+				2020006E1909ACF2001BBCCD /* Function.h */,
+				2020006F1909ACF2001BBCCD /* Function.m */,
+				20200074190A8C03001BBCCD /* Command.h */,
+				20200075190A8C03001BBCCD /* Command.m */,
+				208C89411901E5520041FF04 /* Images.xcassets */,
+				208C892B1901E5520041FF04 /* Supporting Files */,
+			);
+			path = Coloroid;
+			sourceTree = "<group>";
+		};
+		208C892B1901E5520041FF04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				208C892C1901E5520041FF04 /* Coloroid-Info.plist */,
+				208C892D1901E5520041FF04 /* InfoPlist.strings */,
+				208C89301901E5520041FF04 /* main.m */,
+				208C89321901E5520041FF04 /* Coloroid-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		208C894E1901E5520041FF04 /* ColoroidTests */ = {
+			isa = PBXGroup;
+			children = (
+				208C89541901E5520041FF04 /* ColoroidTests.m */,
+				208C894F1901E5520041FF04 /* Supporting Files */,
+			);
+			path = ColoroidTests;
+			sourceTree = "<group>";
+		};
+		208C894F1901E5520041FF04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				208C89501901E5520041FF04 /* ColoroidTests-Info.plist */,
+				208C89511901E5520041FF04 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		208C895E190226050041FF04 /* SKTUtils */ = {
+			isa = PBXGroup;
+			children = (
+				208C895F190226050041FF04 /* SKAction+SKTExtras.h */,
+				208C8960190226050041FF04 /* SKAction+SKTExtras.m */,
+				208C8961190226050041FF04 /* SKEmitterNode+SKTExtras.h */,
+				208C8962190226050041FF04 /* SKEmitterNode+SKTExtras.m */,
+				208C8963190226050041FF04 /* SKNode+SKTExtras.h */,
+				208C8964190226050041FF04 /* SKNode+SKTExtras.m */,
+				208C8965190226050041FF04 /* SKTAudio.h */,
+				208C8966190226050041FF04 /* SKTAudio.m */,
+				208C8967190226050041FF04 /* SKTUtils.h */,
+				208C8968190226050041FF04 /* SKTUtils.mm */,
+			);
+			path = SKTUtils;
+			sourceTree = "<group>";
+		};
+		208C8971190238EC0041FF04 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				200A97ED19026646002A9353 /* Art */,
+				200A97E4190249D5002A9353 /* Levels */,
+				208C899A190238EC0041FF04 /* Extra Source Code */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		208C899A190238EC0041FF04 /* Extra Source Code */ = {
+			isa = PBXGroup;
+			children = (
+				208C899B190238EC0041FF04 /* SKTEffects.h */,
+				208C899C190238EC0041FF04 /* SKTEffects.m */,
+				208C899D190238EC0041FF04 /* SKTTimingFunctions.h */,
+				208C899E190238EC0041FF04 /* SKTTimingFunctions.m */,
+			);
+			path = "Extra Source Code";
+			sourceTree = "<group>";
+		};
+		209022C51905535B006EAD60 /* backgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				209022C61905535B006EAD60 /* blueprint@2x.png */,
+			);
+			path = backgrounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		208C891E1901E5510041FF04 /* Coloroid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 208C89581901E5520041FF04 /* Build configuration list for PBXNativeTarget "Coloroid" */;
+			buildPhases = (
+				208C891B1901E5510041FF04 /* Sources */,
+				208C891C1901E5510041FF04 /* Frameworks */,
+				208C891D1901E5510041FF04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Coloroid;
+			productName = Coloroid;
+			productReference = 208C891F1901E5510041FF04 /* Coloroid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		208C89461901E5520041FF04 /* ColoroidTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 208C895B1901E5520041FF04 /* Build configuration list for PBXNativeTarget "ColoroidTests" */;
+			buildPhases = (
+				208C89431901E5520041FF04 /* Sources */,
+				208C89441901E5520041FF04 /* Frameworks */,
+				208C89451901E5520041FF04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				208C894D1901E5520041FF04 /* PBXTargetDependency */,
+			);
+			name = ColoroidTests;
+			productName = ColoroidTests;
+			productReference = 208C89471901E5520041FF04 /* ColoroidTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		208C89171901E5510041FF04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Ayan Yenbekbay";
+				TargetAttributes = {
+					208C891E1901E5510041FF04 = {
+						DevelopmentTeam = X5764AN68D;
+					};
+					208C89461901E5520041FF04 = {
+						TestTargetID = 208C891E1901E5510041FF04;
+					};
+				};
+			};
+			buildConfigurationList = 208C891A1901E5510041FF04 /* Build configuration list for PBXProject "Coloroid" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 208C89161901E5510041FF04;
+			productRefGroup = 208C89201901E5510041FF04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				208C891E1901E5510041FF04 /* Coloroid */,
+				208C89461901E5520041FF04 /* ColoroidTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		208C891D1901E5510041FF04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20B2746B1908A41700552A47 /* bucket_anim.atlas in Resources */,
+				205878DD190D9EE500BA552A /* head_activate_anim.atlas in Resources */,
+				20B2746A1908A41700552A47 /* body_anim.atlas in Resources */,
+				20A4D8981908B1D800CA278B /* splatter.atlas in Resources */,
+				20B2746F1908A41700552A47 /* left_arm_anim.atlas in Resources */,
+				208C892F1901E5520041FF04 /* InfoPlist.strings in Resources */,
+				208C89421901E5520041FF04 /* Images.xcassets in Resources */,
+				20B2746C1908A41700552A47 /* elements_front.atlas in Resources */,
+				20B2746E1908A41700552A47 /* interface.atlas in Resources */,
+				208C89381901E5520041FF04 /* Main.storyboard in Resources */,
+				20B274701908A41700552A47 /* right_arm_anim.atlas in Resources */,
+				209022C71905535B006EAD60 /* blueprint@2x.png in Resources */,
+				2039E6F5190B35A200F53380 /* left_claw_anim.atlas in Resources */,
+				20B2746D1908A41700552A47 /* head_anim.atlas in Resources */,
+				2039E6F3190B2CA500F53380 /* right_claw_anim.atlas in Resources */,
+				200A97E8190249D5002A9353 /* level-1.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		208C89451901E5520041FF04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				208C89531901E5520041FF04 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		208C891B1901E5510041FF04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				208C893E1901E5520041FF04 /* MyScene.m in Sources */,
+				208C89D1190238EC0041FF04 /* SKTEffects.m in Sources */,
+				208C896C190226050041FF04 /* SKTAudio.m in Sources */,
+				2039E6F8190C4B5800F53380 /* Color.m in Sources */,
+				208C893B1901E5520041FF04 /* ViewController.m in Sources */,
+				208C896A190226050041FF04 /* SKEmitterNode+SKTExtras.m in Sources */,
+				208C896D190226050041FF04 /* SKTUtils.mm in Sources */,
+				200A97E9190249D5002A9353 /* TileMapLayerLoader.m in Sources */,
+				208C89D2190238EC0041FF04 /* SKTTimingFunctions.m in Sources */,
+				208C8969190226050041FF04 /* SKAction+SKTExtras.m in Sources */,
+				208C89351901E5520041FF04 /* AppDelegate.m in Sources */,
+				20696AAD1902E43F00CD4DA6 /* Tile.m in Sources */,
+				20200076190A8C03001BBCCD /* Command.m in Sources */,
+				202000701909ACF2001BBCCD /* Function.m in Sources */,
+				208C8970190228AA0041FF04 /* TileMapLayer.m in Sources */,
+				208C896B190226050041FF04 /* SKNode+SKTExtras.m in Sources */,
+				208C89311901E5520041FF04 /* main.m in Sources */,
+				200A97EC19024D43002A9353 /* Bot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		208C89431901E5520041FF04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				208C89551901E5520041FF04 /* ColoroidTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		208C894D1901E5520041FF04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 208C891E1901E5510041FF04 /* Coloroid */;
+			targetProxy = 208C894C1901E5520041FF04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		208C892D1901E5520041FF04 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				208C892E1901E5520041FF04 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		208C89361901E5520041FF04 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				208C89371901E5520041FF04 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		208C89511901E5520041FF04 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				208C89521901E5520041FF04 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		208C89561901E5520041FF04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		208C89571901E5520041FF04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		208C89591901E5520041FF04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Coloroid/Coloroid-Prefix.pch";
+				INFOPLIST_FILE = "Coloroid/Coloroid-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		208C895A1901E5520041FF04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Coloroid/Coloroid-Prefix.pch";
+				INFOPLIST_FILE = "Coloroid/Coloroid-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		208C895C1901E5520041FF04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Coloroid.app/Coloroid";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Coloroid/Coloroid-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ColoroidTests/ColoroidTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		208C895D1901E5520041FF04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Coloroid.app/Coloroid";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Coloroid/Coloroid-Prefix.pch";
+				INFOPLIST_FILE = "ColoroidTests/ColoroidTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		208C891A1901E5510041FF04 /* Build configuration list for PBXProject "Coloroid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				208C89561901E5520041FF04 /* Debug */,
+				208C89571901E5520041FF04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		208C89581901E5520041FF04 /* Build configuration list for PBXNativeTarget "Coloroid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				208C89591901E5520041FF04 /* Debug */,
+				208C895A1901E5520041FF04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		208C895B1901E5520041FF04 /* Build configuration list for PBXNativeTarget "ColoroidTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				208C895C1901E5520041FF04 /* Debug */,
+				208C895D1901E5520041FF04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 208C89171901E5510041FF04 /* Project object */;
+}
